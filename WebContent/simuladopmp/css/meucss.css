@@ -1,0 +1,39 @@
+@CHARSET "ISO-8859-1";
+
+#container-cadastro{
+	width: 30%;
+	border:1px #333 solid; 
+	margin: 100px;/* fica a margem do canto superior esquerdo ou seja quanto ele vai se afastar */
+	padding: 3%;/*espaçamento da borda e seus elementos nos 4 sentidos */
+}
+
+.container-itens{
+	border:1px #333 solid; 
+	width: 20%;
+	float: left;
+	height: 500px;
+}
+.container-questoes{
+	border: 1px #333 solid; 
+	width: 80%;
+	float: right;
+/* 	background-color:#124256; */
+	height: 500px;
+	
+}
+.container-questoes .deslogar{
+	background-color: aqua;
+	
+}
+.container-questoes .deslogar button{
+	position: relative;
+	left: 92.5%;
+}
+
+fieldset legend{
+	background-color:aqua;
+}
+
+fieldset legend button{
+	width: 10%;
+}
